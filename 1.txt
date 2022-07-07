@@ -1,0 +1,128 @@
+1. In EAs, the mutation is
+An unary operator
+2. In ESs, chromosomes representations: 1. Can be any of the following: binary strings, integer strings, real valued vectors, permutations; 2. Can be integer strings or real valued vectors; 3. Uses only real valued vectors; 4. Does not influence the recombination operator; 5. Is determined by the particular problem to be solved; 6. Influences the crossover operator; 7. Influences the survivors selection mechanism
+3, 4
+3. The fitness function: 1. Measures the quality of the evolutionary algorithms (EAs); 2. Measures the quality of each genotype; 3. Evaluates the complexity of EAs; 4. Should be maximized; 5. Established whether a child is feasible; 6. Selects the parents; 7. Selects the survivors; 8. Is of stochastic type; 9. Measures the quality of each current population; 10. Measures the quality of each current population versus its corresponding predecessor; 11. Depends on the particular problem to be solved
+2, 4, 11
+4. Let X=[6, 1, 8, 10, 5, 7, 9, 3, 4, 2] be a permutation. If we apply the scramble mutation operator for (2,7), we can obtain Y:
+2, 4, 5
+5. The initial population of every EA: 1. Is generated before the evolution process (consisting in selection, variation and evaluation) 2. Is generated once 3. Is generated at the beginning of each loop of the evolution process 4. Is randomly generated 5. Is generated using the normal probability distribution 6. Is generated in deterministic manner 7. Is a finite set of candidate solutions
+1, 2, 4, 7
+6. In Gas, the initial population is
+Randomly generated at the beginning of the search
+7. Let X=[9, 6, 4, 5, 3, 1, 2, 7, 10, 8], Y=[10, 3, 7, 6, 9, 2, 5, 4, 1, 8] be a pair of parent permutations. How many cycles results in case of applying the cx procedure?
+3
+8. In EAs, the variation operators are
+The mutation and the recombination
+9. Let X=[3, 8, 1, 6, 9, 5, 2, 10, 4, 7] and Y=[6, 7, 5, 10, 4, 2, 9, 3, 1, 8] be a pair of parent permutations. How many cycles results in case of applying the cx procedure?
+3
+
+10. The integer representation in Gas
+Is recommended when at least a gene has more than two values
+11. In every GA, the genotype representation: 1. Can be any of the following: binary, integer, real valued vectors and permutation 2. Is either integer representation or real valued vectors representation 3. Is the real valued vectors representation 4. Does not affect the recombination type 5. Depends on the given problem 6. Affects the recombination type 7. Affects the mutation operator 8. Affects the selections
+1, 5, 6, 7
+12. In Gas, the binary representation 1. Is effective when the solution is a vector of logical values 2. Should be used by every algorithm 3. Should not be used 4. Cannot be used to solve optimization problems 5. Influences the class of variation operators used to develop the algorithm 6. Imposes the use of roulette wheel mechanism 7. Is effective only for solving constrained problems
+1, 5
+13. In Gas, the crossover operator depends on
+The genotype representation
+14. Let X=[1,4, 5, 8, 7, 9, 2, 3, 6, 10] , Y=[9, 3, 4, 2, 8, 7, 10, 5, 1, 6] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the pmx procedure, if the crossover positions are (5,6)?
+C1=[8 3 4 2 7 9 10 5 1 6], C2=[1 4 5 9 8 7 2 3 6 10]
+15. Let v=[0,1,1,0,0,1,0] be a binary vector. Select the correct statement(s): a. a mutation in a gene of v can produce a vector with all bits equal to 1; b. a mutation in a gene of v can produce a vector with all bits equal to 0; c. a mutation in a gene of v can produce a vector with 4 bits equal to 1; d. a mutation in a gene of v can produce a vector with 4 bits equal to 0; e none of the other answers
+C
+16. In EAs, the main characteristic of populations is
+The diversity
+17. Let X=[9, 6, 4, 5, 3, 1, 2, 7, 10, 8], Y=[10, 3, 7, 6, 9, 2, 5, 4, 1, 8] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the CX procedure?
+C1=[9 6 7 5 3 1 2 4 10 8], C2=[10 3 4 6 9 2 5 7 1 8]
+18. Let f:[0,1] -> R, f(x)=1.000.000+x*x be a fitness function (to be maximized). A suitable method used to calculate a global maximum point of the function f: a. never uses parent selection mechanisms; b. can use the tournament selection or FPS; c. can use the tournament selection or sigma-scaling FPS; d. is always deterministic; e. is always stochastic
+C
+19. The binary representation in Gas
+Is the first encoding used to solve problems in terms of evolutionary computing
+20. A GA maximizes
+Fitness functions
+21. Let P be a dim-size population. The quality of P is given by: a. the number of distinct individuals, regardless of the representation length; b. the number of distinct individuals, regardless of their qualities; c. the number of distinct fitness values in P; d. the parity of dim; e. the uniqueness of P
+C
+22. The components of EAs are:
+1, 3, 5, 6, 10, 12, 14, 15
+23. In EAs, the main aim of the fitness function is
+To form the basis for selection
+24. We consider the following individual X=[ 6 1 8 10 5 7 12 43 9 3 4 2] (integer-valued vector representation). The result of applying the creep mutation operator with value 1 could be:
+None of the other answers
+25. In EAs, the role of the fitness function is
+To represent the environment requirements to adapt to
+26. In EAs, the genotypes are
+The phenotype representation in an evolutionary context
+27. Let X be a binary vector of size 10. A neighbor of x is a binary vector y such that the Hamming distance between x and y is 1. The set of neighbors of x:
+A, d, e
+28. Let us consider the following chromosome: {7, 6, 12, 14, 3, 10, 8, 15, 11, 5, 4, 1, 13, 2, 9}
+1, 7, 9
+29. Let X = [2, 4, 9, 6, 5, 7, 8, 1, 3, 10], Y = [8, 2, 6, 4, 1, 5, 4, 7, 10, 3, 9] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the pmx procedure, if the crossover positions are (2,6)?
+C1= [8,4 , 9, 6, 5, 7, 1, 10, 3, 2], C2= [ 9, 2, 6, 4, 1, 5, 8, 7, 3, 10]
+30. In any GA that maximizes a specific fitness function:
+3, 4, 7
+
+31. Let X = [4, 5, 3, 8, 6, 10, 9, 7, 1, 2]Y, = [8, 9, 7, 3, 1, 2, 6, 10,5, 4] be a pair of parent permutations. The children resulted by applying the PMX procedure are C1 = [8, 9, 7, 3, 6,10, 1, 2, 5, 4], C2 = [4, 5, 3, 8, 1, 2, 9, 7, 6, 10]. Which of the following pairs of positions produced C1 and C2?
+(5, 6)
+32. In EAs, the mutation operates
+After the crossover procedure
+33. In EAs, the selection benefits
+The fittest individuals
+34. Let X=[9, 2, 4, 2, 1, 7, 5, 3, 10, 8, 6] and Y=[4, 2, 5, 1, 7, 9, 3, 10, 8, 6] be a pair of parent permutations. Which one of the following couple of permutations results in a case of applying the cx procedure?
+C1=X, C2=Y
+35. Let us consider the chromosome defined by the integer valued vector: {3, 10, 8, 15, 11, 5, 4, 9}, each allele belonging to {1,2,...,100}. The result of applying the random resetting operator could be:
+1, 2, 3, 5
+36. The binary representation in Gas
+Uses specific variation operators
+37. Let f:D=[0,1] -> [0,5] be a function to be maximized. A method that compute a global maximum point involves:
+Stochastic and population-based search
+38. A GA is over
+When a termination criterion is satisfied
+39. In Gas, the mutation:
+2, 10, 13
+40. In EAs, the crossover is
+A binary operator
+41. Let f:D={-2,-1,0,1,2,3} -> [0,5] be a function to be maximized. The simplest method to compute a global maximum point involves:
+The evaluation of each element in D and the selection of the best one
+42. The crossover procedure in Gas:
+2, 4, 6, 8, 10, 13
+43. Let x be a binary vector of size 10 satisfying an admissibility criterion denoted by A
+B and e
+44. Let X=[9, 3, 2, 5, 6, 8, 1, 7, 10, 4] and Y=[2, 8, 4, 5, 10, 3, 7, 6, 9, 1] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the ocx procedure, if the crossover points are (3,6)?
+C1=[4 10 2 5 6 8 3 7 9 1], C2=[2 6 4 5 10 3 8 1 7 9]
+45. Let v=[0,1,1,0,0,1,0] be a binary vector. The fitness function is defined on the 7-length binary vectors set and, for each chromosome, computes the sum of its components. Select the correct statement(s):
+A, b and c
+46. Let B(100) be the set of the binary vectors having 100 bits and f: f:B(100)->N a fitness function (to be maximized)
+D
+47. Let X=[6 1 8 10 5 7 9 3 4 2]be a permutation. If we apply the inversion mutation for (2,7), we can obtain Y:
+2
+48. The evolutionary computing is
+None of the other answers
+49. Let f:[0,1] -> R, f(x)=1.000.000+x*x be a fitness function (to be maximized). A suitable method used to calculate a global maximum point of the function f:
+D
+50. The initial population in memetic algorithms
+Can use already known good solutions
+51. The survivor selection in GA
+2, 9
+52. The following mutation operator is extensively used to solve adjacency-based problems
+Inversion mutation
+53. The mating pool selection in Gas:
+3, 6, 7, 8
+54. In EAs, the role of population is
+To hold the possible solutions
+55. Let X=[6 1 8 10 5 7 9 3 4 2] and Y=[9 8 7 3 6 1 5 10 4 2] be a pair of parent permutations. How many cycles results from applying the CX procedure?
+5
+56. Let X=[9, 4, 2, 1, 7, 5, 3, 10, 8, 6] and Y=[4, 2, 5, 1, 7, 9, 3, 10, 8, 6] be a pair of parent permutations. How many cycles results from applying the CX procedure?
+7
+57. We consider the following individuals {6, 3, 11, 7, 14, 8, 5, 15, 1, 2, 4, 13, 9, 10, 12} and
+None of the other answers
+58. The general recombination scheme is applied to:
+Parents
+59. The k-individual tournament selection:
+c and e
+60. Let X=[6 1 8 10 5 7 9 3 4 2] and Y=[9 8 7 3 6 1 5 10 4 2] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the cx procedure?
+C1=[6 8 7 10 5 1 9 3 4 2], C2=[9 1 8 3 6 7 5 10 4 2]
+61. In Gas, the termination condition
+2, 4, 7
+62. Which one of the following operators is used by Gas in case of real valued vectors representation?
+5, 6, 14, 15, 16, 18, 19, 21
+63. A GA is a search method
+That processes population
